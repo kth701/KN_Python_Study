@@ -11,6 +11,7 @@ class DataPro:
         self.month = month
         self.day = day
 
+    #멤버 메서드
     def display(self):
         print("오늘은 %d년 %d월 %d일 입니다." % (self.year, self.month, self.day))
 
